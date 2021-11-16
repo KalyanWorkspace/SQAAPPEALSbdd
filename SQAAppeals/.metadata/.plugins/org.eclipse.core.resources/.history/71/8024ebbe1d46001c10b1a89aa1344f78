@@ -1,0 +1,18 @@
+package steps;
+
+public class StepDefinition {
+	
+	@Given("^the user has access to SQA Portal$")
+    public void the_user_has_access_to_sqa_portal() {
+	}
+
+    @When("^the enters his valid credentials$")
+    public void the_enters_his_valid_credentials() {
+        
+    }
+
+    @Then("^the user can view the services$")
+    public void the_user_can_view_the_services() {
+        
+    }
+}

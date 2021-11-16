@@ -1,0 +1,7 @@
+#Author: your.email@your.domain.com
+
+  @reg
+  Scenario: Login with valid credentials
+    Given the user has access to SQA Portal
+    When the enters his valid credentials
+    Then the user can view the services  

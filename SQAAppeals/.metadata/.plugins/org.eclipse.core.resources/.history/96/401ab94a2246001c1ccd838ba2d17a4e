@@ -1,0 +1,27 @@
+package steps;
+
+import java.io.IOException;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.cucumber.junit.Cucumber;
+import resources.TestBase;
+
+//@RunWith (Cucumber.class)
+public class StepDefinition extends TestBase {
+	
+	@Given("^the user has access to SQA Portal$")
+    public void the_user_has_access_to_sqa_portal() throws IOException {
+		initializeDriver();
+    }
+
+    @When("^the user enters his valid credentials$")
+    public void the_user_enters_his_valid_credentials() {
+    }
+
+    @Then("^the user can view the services$")
+    public void the_user_can_view_the_services() {}
+    }

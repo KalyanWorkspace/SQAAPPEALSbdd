@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SQA" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="8.051">
+    <testsuite name="Login to SQA Portal" time="8.051">
+      <testsuite name="Login with valid credentials" time="8.051">
+        <testcase name="the user has access to SQA Portal" classname="Login with valid credentials" time="8.049"/>
+        <testcase name="the user enters his valid credentials" classname="Login with valid credentials" time="0.0"/>
+        <testcase name="the user can view the services" classname="Login with valid credentials" time="0.0"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

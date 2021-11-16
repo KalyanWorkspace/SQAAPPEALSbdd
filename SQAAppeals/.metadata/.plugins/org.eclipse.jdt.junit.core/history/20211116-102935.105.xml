@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="SQA" tests="6" started="6" failures="0" errors="4" ignored="0">
+  <testsuite name="cucumberOptions.TestRunner" time="45.96">
+    <testsuite name="Login to SQA Portal" time="45.96">
+      <testsuite name="Login with valid credentials" time="35.571" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h3[@class='giga primary-font-light push--bottom']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SQA21049', ip: '192.168.246.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ba6fe28d-cd63-4e6a-be0d-ddc1fed34647, findElement {using=xpath, value=//h3[@class='giga primary-font-light push--bottom']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:debuggerAddress: localhost:62671, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 25144, moz:profile: C:\Users\pula0989\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:62671/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba6fe28d-cd63-4e6a-be0d-ddc1fed34647&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)&#13;
+	at pageObjects.YourServicesPage.yourServices(YourServicesPage.java:18)&#13;
+	at steps.StepDefinition.the_user_can_view_the_services(StepDefinition.java:45)&#13;
+	at ✽.the user can view the services(file:///C:/WorkSpace/SQAAppeals/SQA/src/test/java/features/Login.feature:9)&#13;
+&#13;
+</error>
+        <testcase name="the user has access to SQA Portal" classname="Login with valid credentials" time="13.959"/>
+        <testcase name="the user enters his valid credentials" classname="Login with valid credentials" time="1.459"/>
+        <testcase name="the user can view the services" classname="Login with valid credentials" time="20.119">
+          <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: //h3[@class='giga primary-font-light push--bottom']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'SQA21049', ip: '192.168.246.92', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [ba6fe28d-cd63-4e6a-be0d-ddc1fed34647, findElement {using=xpath, value=//h3[@class='giga primary-font-light push--bottom']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:debuggerAddress: localhost:62671, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 25144, moz:profile: C:\Users\pula0989\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), se:cdp: ws://localhost:62671/devtoo..., se:cdpVersion: 85, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba6fe28d-cd63-4e6a-be0d-ddc1fed34647&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)&#13;
+	at pageObjects.YourServicesPage.yourServices(YourServicesPage.java:18)&#13;
+	at steps.StepDefinition.the_user_can_view_the_services(StepDefinition.java:45)&#13;
+	at ✽.the user can view the services(file:///C:/WorkSpace/SQAAppeals/SQA/src/test/java/features/Login.feature:9)&#13;
+&#13;
+</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Login with In-valid credentials" time="10.326" incomplete="true">
+        <error>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)&#13;
+	at steps.StepDefinition.the_user_enters_his_invalid_credentials(StepDefinition.java:39)&#13;
+	at ✽.the user enters his Invalid credentials(file:///C:/WorkSpace/SQAAppeals/SQA/src/test/java/features/Login.feature:14)&#13;
+&#13;
+</error>
+        <testcase name="the user has access to SQA Portal" classname="Login with In-valid credentials" time="10.192"/>
+        <testcase name="the user enters his Invalid credentials" classname="Login with In-valid credentials" time="0.122">
+          <error>java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:92)&#13;
+	at steps.StepDefinition.the_user_enters_his_invalid_credentials(StepDefinition.java:39)&#13;
+	at ✽.the user enters his Invalid credentials(file:///C:/WorkSpace/SQAAppeals/SQA/src/test/java/features/Login.feature:14)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="the user cannot login to the site" classname="Login with In-valid credentials" time="0.01">
+          <skipped>io.cucumber.junit.SkippedThrowable: This step is skipped&#13;
+&#13;
+</skipped>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
